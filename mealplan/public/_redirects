@@ -1,0 +1,5 @@
+# Redirect all traffic to HTTPS
+http://morningdewmealplanner.netlify.app/* https://morningdewmealplanner.netlify.app/:splat 301!
+
+# SPA fallback
+/*    /index.html   200
